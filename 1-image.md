@@ -14,6 +14,8 @@ docker pull <nombre imagen>:<tag>
 ```
 
 Descargar la imagen **hello-world**
+![Descarga de la imagen de hello-world.](image.png)
+
 # COMPLETAR
 
 **¿Qué es nginx?**
