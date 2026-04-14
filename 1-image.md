@@ -19,9 +19,13 @@ Descargar la imagen **hello-world**
 # COMPLETAR
 
 **¿Qué es nginx?**
+Nginx es un software de servidor web de código abierto, muy usado en sistemas modernos porque funciona no solo como servidor HTTP, sino también como proxy inverso, balanceador de carga y caché de contenido, ofreciendo alto rendimiento y bajo consumo de recursos. Su arquitectura basada en eventos le permite manejar miles de conexiones simultáneas, lo que lo convierte en una pieza clave en aplicaciones con alto tráfico.
+
 # COMPLETAR 
 
 Descargar la imagen  **nginx** en la versión **alpine**
+![nginx:alpine](image-1.png)
+
 # COMPLETAR
 
 ### Listar imágenes
@@ -31,6 +35,7 @@ docker images
 ```
 
 # COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
+![Imagenes en docker](image-2.png)
 
 **Identificadores**
 
@@ -45,9 +50,13 @@ docker inspect <nombre imagen>:<tag>
 ```
 
 Inspeccionar la imagen hello-world 
+
+![Resultado de consola](image-3.png)
 # COMPLETAR
 
 **¿Con qué algoritmo se está generando el ID de la imagen**
+Se está generado con un hash criptográfico SHA-256.
+
 # COMPLETAR
 
 ### Filtrar imágenes
@@ -65,6 +74,8 @@ docker rmi <nombre imagen>:<tag>
 ```
 
 Eliminar la imagen hello-world 
+![Eliminar hello-world](image-4.png)
+
 # COMPLETAR
 
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.
